@@ -1,0 +1,167 @@
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+nav{
+	background-color: rgba(10,0,0,0.1);
+}
+nav a{
+	color: white;
+}
+.navbar-nav>li>a:hover{
+	background-color: transparent;
+	color: #fff;
+}
+.creative{
+	color: #0feb9e;
+
+}
+
+.cpti h3{
+	font-size:45px;
+	position: relative;
+}
+.cpti h3 span{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.cpti h3 .creative{
+	font-weight: lighter;
+}
+.cpti p{
+	font-size: 20px;
+}
+.services{
+	background-color: #f4f7f9;
+
+}
+.servicesText{
+	font-size: 20px;
+	font-weight: 600px;
+	padding: 10px;
+}
+.servicesText .fa, .servicesTitle ,.aboutUsTitle h2{
+	color: #8B0110;
+}
+.sText{
+	margin: 100px;
+}
+.servicesTitle,.aboutUsTitle h2 , .factsTitle h2{
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.galleryTitle{
+	font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #5b646e;
+}
+.galleryList{
+	font-weight: bold;
+	font-size: 17px;
+}
+.galleryList:hover{
+	cursor: pointer;
+	background-color: #8b0110;
+	color: white;
+	border-radius: 3px;
+	border:0px;
+}
+.galleryList{
+	cursor: pointer;
+	background-color: #FFF;
+	color: black;
+	border-radius: 3px;
+	border:0px;
+}
+.galleryImg img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.galleryImg{
+	padding: 0px;
+
+}
+.aboutParagraph{
+	font-weight: 600;
+    line-height: 24px;
+    font-size: 18px;
+    color: #5b646e;
+}
+.facts{
+	background-image: url("../img/city.jpeg");
+	background-attachment: fixed;
+	color: white;
+	padding: 30px 0px;
+}
+.hrs{
+	font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.contactForm input ,.contactForm textarea{
+	border:0px;
+	border-bottom: 1px solid #ddd;
+}
+.submit{
+	background-color: white;
+	border:0px;
+	float: right;
+}
+footer{
+	padding: 30px 0px;
+	background-color: #8B0110;
+}
+.firstSection p{
+	color: white;
+}
+.secondSection input{
+	background-color: transparent;
+	border:1px solid #fff;
+	width: 100%;
+}
+.secondSection .butn{
+	border:0px;
+	position: absolute;
+	left: 110px;
+	color: white;
+	font-size:20px;
+	bottom:37%;
+}
+.secondSection,.thirdSection,.copyRights{
+	color: white;
+}
+.thirdSection ul{
+	  list-style-type: none;
+	  
+}
+.thirdSection h4{
+	text-align: left;
+}
+.sedTitle{
+	line-height: 2px;
+}
+#scrollArrow{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	color: #f00;
+	cursor: pointer;
+	font-size: 25px;
+	font-weight: lighter;
+	display: none;
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: white;
+	position: fixed;
+}
+#loading img{
+	position: fixed;
+	top: 30%;
+	left: 38%;
+}
